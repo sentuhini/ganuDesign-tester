@@ -1,0 +1,297 @@
+<!DOCTYPE html> <!-- Form-WhatsApp-Orders Fir'aun Zaczatar -->
+<html lang="id">
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+    <meta name="theme-color" content="#6f42c1" />
+    <meta name="description" content="Colorlib Templates">
+    <meta name="author" content="Colorlib">
+    <meta name="keywords" content="Colorlib Templates">
+
+    <!-- Title Page-->
+    <title>Tester Ganu Design whatsapp orders form</title>
+
+    <!-- Icons font CSS-->
+    <link href="vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
+    <link href="vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
+    <!-- Font special for pages-->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+    <!-- Vendor CSS-->
+    <link href="vendor/select2/select2.min.css" rel="stylesheet" media="all">
+    <link href="vendor/datepicker/daterangepicker.css" rel="stylesheet" media="all">
+
+
+    <!-- Main CSS-->
+    <link href="css/ai-01.css" rel="stylesheet" media="all">
+    <link rel="shortcut icon" href="ganu.ico" />
+    <link rel="apple-touch-icon" href="ganu.ico" />
+    <link rel="icon" sizes="192x192" href="ganu.ico" />
+</head>
+
+<body onchange="cdata()">
+  <div type="text" id="tes"></div>
+  <div class="page-wrapper bg-gra-02 p-t-10 p-b-10 font-poppins">
+    <div class="wrapper">
+      <div class="card card-4">
+        <div class="grid-container">
+          <div class="">
+            <label class="lbl0">ganu Design</label><br>
+            <label class="lbl1">WhatsApp Order Form - tester</label>
+          </div>
+          <div class="">
+            <img src="ganu2.jpg" alt="ganu">
+          </div>
+        </div>
+        <div class="gs1"></div>
+        <form method="post">
+          <div class="row row-space">
+            <div class="col-2">
+              <div class="input-group">
+                <label class="label">Nama kamu</label>
+                <input class="input--style-4a" type="text"
+                placeholder="boleh kenalan dulu kak, biar enak panggilnya" name="nam" id="name">
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="gs2"></div>
+              <label class="label">Mau design...</label>
+              <div class="inGrp">
+                <input name="optA" id="optA1" value="Logo" type="radio"/checked>
+                <label for="optA1">Logo</label>
+              </div>
+              <div class="inGrp">
+                <input name="optA" id="optA2" value="Maskot" type="radio"/>
+                <label for="optA2">Maskot</label>
+              </div>
+              <div class="inGrp">
+                <input name="optA" id="optA3" value="Banner/Poster" type="radio"/>
+                <label for="optA3">Banner/ Poster</label>
+              </div>
+            </div>
+            </div>
+
+
+              <div class="row row-space">
+                <div class="col-2">
+                  <div class="gs2"></div>
+                  <label class="label">Tema Design...</label>
+                  <div class="inGrp">
+                    <input name="optB" id="optB1" value="TextArt" type="radio"/checked>
+                    <label for="optB1">Text Art</label>
+                  </div>
+                  <div class="inGrp">
+                    <input name="optB" id="optB2" value="AnimalArt" type="radio"/>
+                    <label for="optB2">Animal Art</label>
+                  </div>
+                  <div class="inGrp">
+                    <input name="optB" id="optB3" value="FreeArt" type="radio"/>
+                    <label for="optB3">Free Art</label>
+                  </div>
+                </div>
+
+                <div class="col-2">
+                  <div class="gs2"></div>
+
+                  <label class="label">Tema Warna...</label>
+                  <div class="inGrp">
+                    <input name="optC" id="optC1" value="pil ganu" type="radio"/checked>
+                    <label for="optC1">Pilihan ganu Design</label>
+                  </div>
+                  <div class="inGrp">
+                    <input name="optC" id="optC2" value="BW" type="radio"/>
+                    <label for="optC2">Hitam Putih</label>
+                  </div>
+                  <div class="inGrp">
+                    <input name="optC" id="optC3" type="radio"/>
+                    <label for="optC3">Pilih sendiri</label>
+                  </div>
+                  <div class="autohide" id="hide1">
+                  <div class="input-group">
+                  <input class="input--style-4a" type="text"
+                  placeholder="ex : ungu, biru, hijau,"
+                  name="war" id="warna">
+                  </div></div>
+                </div>
+              </div>
+
+
+                <div class="gs2"></div>
+                <div class="row row-space">
+                  <div class="col-2">
+                  <label class="label">Teks Utama | Grand Title:</label>
+                  <div class="input-group">
+                  <input class="input--style-4a" type="text"
+                  placeholder="nama Logo/Brand kamu, ..." name="textA1" id="textA1">
+                  </div>
+                  </div>
+
+                  <div class="col-2">
+                  <label class="label">Teks kedua | Sub Title: (optional)</label>
+                  <div class="input-group">
+                  <input class="input--style-4a" type="text"
+                  placeholder="Slogan Logo/Brand kamu/ boleh kosong" name="textA2" id="textA2">
+                  </div>
+                  </div>
+                </div>
+                <!--
+                    <label class="label">Teks tambahan (optional)</label>
+                    <textarea class="inarea"
+                    placeholder="bila ada teks tambahan [boleh dikosongkan]" name="desc" id="desc">
+                  </textarea>
+                -->
+
+
+        </form>
+        <button class="btn btn--radius-2 btn--def" id="send" onclick="kirim()">&ensp;Buat Pesanan &#8811;</button>
+
+
+        <div class="card7">
+
+        <!-- ========================= -->
+        <div class="ro1"><div class="col-0"><h8><li class="a"></li></h8></div><div class="col-0b"><h8>
+        <b>Penting bagi kita bersama</b>
+        </h8>  </div></div>
+        <!-- ========================= -->
+        <div class="ro2"><div class="col-0"><h8><li class="b0"></li></h8></div><div class="col-0b"><h8>
+        Pengerjaan sesuai antrian
+        </h8></div></div>
+        <!-- ========================= -->
+        <div class="ro2"><div class="col-0"><h8><li class="b0"></li></h8></div><div class="col-0b"><h8>
+        Pesanan akan dikerjakan secepatnya &amp; profesional
+        </h8></div></div>
+        <!-- ========================= -->
+        <div class="ro2"><div class="col-0"><h8><li class="b0"></li></h8></div><div class="col-0b"><h8>
+        Pesanan akan dikerjakan, setelah DP masuk minimal 50%
+        </h8></div></div>
+        <!-- ========================= -->
+        <div class="ro2"><div class="col-0"><h8><li class="b0"></li></h8></div><div class="col-0b"><h8>
+        File High Quality akan dikirim setelah pelunasan
+        </h8></div></div>
+        <!-- =========================
+        <div class="ro2"><div class="col-0"><h8><li class="b"></li></h8></div><div class="col-0b"><h8>
+        Pesanan yg tidak diambil lebih dari 3 bulan (90 hari) dari tanggal perjanjian maka, pesanan akan dilelang / dianggap kakak telah merelakanya menjadi hak milik Oneecca sebagai ganti biaya jasa/ produksi
+        </h8></div></div>
+        <!-- =========================
+        <div class="ro2"><div class="col-0"><h8><li class="b2"></li></h8></div><div class="col-0b"><h8>
+        Fitting sangat penting agar Oneecca bisa revisi jika ada perubahan proporsi badan kakak sebelum hari H
+        </h8></div></div>
+        <!-- =========================
+        <div class="ro2"><div class="col-0"><h8><li class="b3"></li></h8></div><div class="col-0b"><h8>
+        Usahakanlah Fitting sebelum hari H
+        </h8></div></div>
+        <!-- =========================
+        <div class="ro3"><div class="col-0"><h8><li class="c"></li></h8></div><div class="col-0b"><h8>
+        FAKTA : Proporsi badan perempuan berubah-ubah
+        </h8></div></div>
+        <!-- ========================= -->
+
+        </div>
+
+        <br><br>
+        <h9>
+        &#124;
+        <b>&nbsp;&copy;
+        2020-2022
+        &nbsp;
+        Ganu tester - Fir'aun Zaczatar
+        </b>
+        </h9>
+
+      </div> <!-- card card-4 -->
+    </div> <!-- wrapper -->
+  </div> <!-- page-wrapper bg-gra-02 p-t-10 p-b-10 font-poppins -->
+
+
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script>
+var p0 = document.getElementById("tes"),
+    p1 = document.getElementById('optA1'),
+    p2 = document.getElementById('optA2'),
+    p3 = document.getElementById('optA3'),
+    p4 = document.getElementById('optB1'),
+    p5 = document.getElementById('optB2'),
+    p6 = document.getElementById('optB3'),
+    p7 = document.getElementById('optC1'),
+    p8 = document.getElementById('optC2'),
+    p9 = document.getElementById('optC3'),
+    p10 = document.getElementById('warna'),
+    p11 = document.getElementById('textA1'),
+    p12 = document.getElementById('textA2'),
+    h1 = document.getElementById('hide1');
+
+var ts = " ",
+    t1 = '-',
+    t2 = 'Logo',
+    t3 = 'TextArt',
+    t4 = 'Pilihan ganu',
+    t5 = '-',
+    t6 = '-';
+
+/* Pengaturan Whatsapp */
+var walink      = 'https://web.whatsapp.com/send',
+    phone       = '6285107925666',
+    phone2       = '6285834326162',
+    text1        = 'Haaai kak Ganu... ',
+    text2        = 'selesai brp lama kak? ',
+    text_yes    = 'Pilih WhatsApp lalu klik Send >> | Pesanan anda terkirim',
+    text_no     = 'lengkapi form dulu yah kak, agar pesanan sesuai impian';
+
+/* Smartphone Support */
+if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+    var walink = 'whatsapp://send';
+}
+
+var checkout_whatsapp =
+walink + '?phone=' + phone2 + '&text=' +
+text1 + '%0A' +
+    'Saya *' + t1 + '*%0A' +
+    'Mau design : *' + t2 + '*%0A' +
+    'tm design : *' + t3 + '*%0A' +
+    'tm warna : *' + t4 + '*%0A' +
+    'Brand :' + '%0A*' + t5 + '*%0A' +
+    'Slogan :' + '%0A*' +
+    '```- ' + t6 + '```%0A%0A' +
+text2;
+
+/* text input */
+function cdata() {
+    t1 = $("#name").val();
+    t2 = $("input:radio[name=optA]:checked").val();
+    t3 = $("input:radio[name=optB]:checked").val();
+    t5 = $("#textA1").val();
+    t6 = $("#textA2").val();
+
+  if (p9.checked) {
+    h1.style.display = 'block';
+    t4 = p10.value;
+  }else {
+    h1.style.display = 'none';
+    t4 = $("input:radio[name=optC]:checked").val();
+  }
+
+  checkout_whatsapp =
+  walink + '?phone=' + phone2 + '&text=' +
+  text1 + '%0A' +
+      'Saya *' + t1 + '*%0A' +
+      'Mau design : *' + t2 + '*%0A' +
+      'tm design : *' + t3 + '*%0A' +
+      'tm warna : *' + t4 + '*%0A' +
+      'Brand :' + '%0A*' + t5 + '*%0A' +
+      'Slogan :' + '%0A*' +
+      '```' + t6 + '```%0A%0A' +
+  text2;
+};
+
+
+function kirim(){
+  window.open(checkout_whatsapp,'_blank');
+  //p0.innerHTML = checkout_whatsapp;
+}
+
+  </script>
+</body>
+
+</html>
